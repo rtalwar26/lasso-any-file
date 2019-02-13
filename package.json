@@ -1,0 +1,29 @@
+{
+  "name": "lasso-any-file",
+  "version": "1.0.0",
+  "description": "A lassojs bundler to put any file/asset into output static directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rtalwar26/lasso-any-file.git"
+  },
+  "keywords": [
+    "lasso",
+    "lassojs",
+    "file",
+    "bundler",
+    "asset"
+  ],
+  "author": "Rajat Talwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtalwar26/lasso-any-file/issues"
+  },
+  "homepage": "https://github.com/rtalwar26/lasso-any-file#readme",
+  "devDependencies": {
+    "@types/node": "^11.9.3"
+  }
+}
