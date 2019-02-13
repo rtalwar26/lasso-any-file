@@ -33,11 +33,6 @@ module.exports = function myPlugin(lasso, config) {
                 let outDirForSound = path.resolve(outDir, ((config && config.dir_name) || "sounds"), this.out_dir);
                 !fs.existsSync(outDirForSound) && fs.mkdirSync(outDirForSound, { recursive: true });
                 await writeFileAsync(path.resolve(outDirForSound, path.basename(this.path)), src);
-
-                // return myCompiler.compile(src);
-
-                // console.log(context);
-                // fs.writeFileSync('lasso.json', JSON.stringify(lasso.config));
                 return ""
                 // NOTE: A stream can also be returned
             },
