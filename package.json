@@ -1,7 +1,7 @@
 {
   "name": "lasso-any-file",
   "version": "1.0.0",
-  "description": "A lassojs bundler to put any file/asset into output static directory",
+  "description": "Lasso.js plugin  to put any file/asset into output static directory",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

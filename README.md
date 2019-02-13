@@ -1,6 +1,6 @@
 # lasso-any-file
 
-A lassojs bundler to put any file/asset into output static directory
+Lasso.js bundler to put any file/asset into output static directory
 
 ```shell
 npm install --save lasso-any-file
